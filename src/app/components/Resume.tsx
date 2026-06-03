@@ -1,5 +1,11 @@
-import { motion } from "motion/react"
-import { Download, GraduationCap, Briefcase, Code2, CheckCircle2 } from "lucide-react"
+import { motion } from "motion/react";
+import {
+  Download,
+  GraduationCap,
+  Briefcase,
+  Code2,
+  CheckCircle2,
+} from "lucide-react";
 
 const strengths = [
   "IoT System Architecture & Sensor Integration",
@@ -10,7 +16,7 @@ const strengths = [
   "Database Design (SQL Server, Oracle, Firebase)",
   "Full-stack Web Development",
   "Research & Technical Documentation",
-]
+];
 
 const education = [
   {
@@ -18,9 +24,10 @@ const education = [
     school: "Quezon City University",
     location: "Quezon City, Philippines",
     period: "2022 – Present",
-    details: "Specialization in software engineering, IoT systems, and application development.",
+    details:
+      "Specialization in software engineering, IoT systems, and application development.",
   },
-]
+];
 
 const experience = [
   {
@@ -43,7 +50,7 @@ const experience = [
       "Created responsive web dashboards and mobile-compatible interfaces",
     ],
   },
-]
+];
 
 export function Resume() {
   return (
@@ -57,12 +64,18 @@ export function Resume() {
           transition={{ duration: 0.6 }}
           className="mb-16"
         >
-          <p className="text-xs text-muted-foreground tracking-widest uppercase mb-3" style={{ fontFamily: "'JetBrains Mono', monospace" }}>
+          <p
+            className="text-xs text-muted-foreground tracking-widest uppercase mb-3"
+            style={{ fontFamily: "'JetBrains Mono', monospace" }}
+          >
             05 / Resume
           </p>
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
             <div>
-              <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground mb-4" style={{ letterSpacing: "-0.02em" }}>
+              <h2
+                className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground mb-4"
+                style={{ letterSpacing: "-0.02em" }}
+              >
                 Professional
                 <br />
                 Background
@@ -73,11 +86,14 @@ export function Resume() {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              href="#"
-              download
+              href="/misc/xeroj_ulgasan.pdf"
+              download="Xeroj_Ulgasan.pdf"
               className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-foreground text-background text-sm font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg shrink-0 group"
             >
-              <Download size={16} className="group-hover:-translate-y-0.5 transition-transform" />
+              <Download
+                size={16}
+                className="group-hover:-translate-y-0.5 transition-transform"
+              />
               Download Resume PDF
             </motion.a>
           </div>
@@ -93,7 +109,9 @@ export function Resume() {
           >
             <div className="flex items-center gap-2 mb-5">
               <Code2 size={16} className="text-muted-foreground" />
-              <h3 className="text-sm font-semibold text-foreground">Core Strengths</h3>
+              <h3 className="text-sm font-semibold text-foreground">
+                Core Strengths
+              </h3>
             </div>
             <ul className="space-y-2.5">
               {strengths.map((s, i) => (
@@ -105,7 +123,10 @@ export function Resume() {
                   transition={{ delay: i * 0.05 }}
                   className="flex items-start gap-2.5 text-sm text-muted-foreground"
                 >
-                  <CheckCircle2 size={14} className="text-muted-foreground/40 mt-0.5 shrink-0" />
+                  <CheckCircle2
+                    size={14}
+                    className="text-muted-foreground/40 mt-0.5 shrink-0"
+                  />
                   {s}
                 </motion.li>
               ))}
@@ -123,7 +144,9 @@ export function Resume() {
             >
               <div className="flex items-center gap-2 mb-5">
                 <GraduationCap size={16} className="text-muted-foreground" />
-                <h3 className="text-sm font-semibold text-foreground">Education</h3>
+                <h3 className="text-sm font-semibold text-foreground">
+                  Education
+                </h3>
               </div>
               {education.map((edu) => (
                 <div
@@ -132,9 +155,15 @@ export function Resume() {
                 >
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
                     <div>
-                      <h4 className="text-sm font-semibold text-foreground">{edu.degree}</h4>
-                      <p className="text-sm text-muted-foreground">{edu.school}</p>
-                      <p className="text-xs text-muted-foreground/60">{edu.location}</p>
+                      <h4 className="text-sm font-semibold text-foreground">
+                        {edu.degree}
+                      </h4>
+                      <p className="text-sm text-muted-foreground">
+                        {edu.school}
+                      </p>
+                      <p className="text-xs text-muted-foreground/60">
+                        {edu.location}
+                      </p>
                     </div>
                     <span
                       className="text-xs text-muted-foreground/50 shrink-0"
@@ -143,7 +172,9 @@ export function Resume() {
                       {edu.period}
                     </span>
                   </div>
-                  <p className="text-xs text-muted-foreground mt-2 leading-relaxed">{edu.details}</p>
+                  <p className="text-xs text-muted-foreground mt-2 leading-relaxed">
+                    {edu.details}
+                  </p>
                 </div>
               ))}
             </motion.div>
@@ -157,7 +188,9 @@ export function Resume() {
             >
               <div className="flex items-center gap-2 mb-5">
                 <Briefcase size={16} className="text-muted-foreground" />
-                <h3 className="text-sm font-semibold text-foreground">Project Experience</h3>
+                <h3 className="text-sm font-semibold text-foreground">
+                  Project Experience
+                </h3>
               </div>
               <div className="space-y-4">
                 {experience.map((exp) => (
@@ -167,8 +200,12 @@ export function Resume() {
                   >
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
                       <div>
-                        <h4 className="text-sm font-semibold text-foreground">{exp.title}</h4>
-                        <p className="text-xs text-muted-foreground">{exp.company}</p>
+                        <h4 className="text-sm font-semibold text-foreground">
+                          {exp.title}
+                        </h4>
+                        <p className="text-xs text-muted-foreground">
+                          {exp.company}
+                        </p>
                       </div>
                       <span
                         className="text-xs text-muted-foreground/50 shrink-0"
@@ -179,8 +216,13 @@ export function Resume() {
                     </div>
                     <ul className="space-y-1.5">
                       {exp.highlights.map((h) => (
-                        <li key={h} className="flex items-start gap-2 text-xs text-muted-foreground">
-                          <span className="text-muted-foreground/30 mt-1 shrink-0">—</span>
+                        <li
+                          key={h}
+                          className="flex items-start gap-2 text-xs text-muted-foreground"
+                        >
+                          <span className="text-muted-foreground/30 mt-1 shrink-0">
+                            —
+                          </span>
                           {h}
                         </li>
                       ))}
@@ -193,5 +235,5 @@ export function Resume() {
         </div>
       </div>
     </section>
-  )
+  );
 }

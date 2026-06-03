@@ -209,13 +209,14 @@ export function Hero() {
             Contact Me
             <Mail size={16} />
           </button>
-          <button
-            onClick={() => handleNav("#resume")}
+          <a
+            href="/misc/xeroj_ulgasan.pdf"
+            download="Xeroj_Ulgasan.pdf"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-border/70 bg-transparent text-muted-foreground text-sm font-medium hover:text-foreground hover:border-foreground/30 transition-all duration-200 hover:-translate-y-0.5"
           >
             Download Resume
             <Download size={16} />
-          </button>
+          </a>
         </motion.div>
 
         {/* Social links */}
