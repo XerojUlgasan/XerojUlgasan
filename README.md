@@ -1,91 +1,90 @@
-<h1 align="center">Hi, I'm Xeroj 👋</h1>
+<h1 align="center">Hi, I'm Xeroj</h1>
+
 <p align="center">
-  IT Student · Full-Stack Developer · IoT Enthusiast
+  IT Student · Software Engineer · IoT Developer
 </p>
+
 <p align="center">
-  <a href="mailto:xerojulgasan@gmail.com">📧 xerojulgasan@gmail.com</a> &nbsp;·&nbsp;
+  <a href="mailto:xerojulgasan@gmail.com">xerojulgasan@gmail.com</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/xeroj-ulgasan">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://xerojulgasan.vercel.app">Portfolio</a>
 </p>
 
-About Me
+---
 
-I'm an IT student who builds hands-on projects across Android development, backend systems, and IoT. I enjoy turning ideas into real working systems — and I'm actively exploring APIs, AI, and system design while still strengthening my fundamentals. My goal is to become a well-rounded developer who can build both software and hardware-based solutions.
+## About Me
 
-Currently open to internship and junior developer opportunities.
+I am an IT student focused on building practical, real-world systems across software and hardware development. My experience spans Android development, backend systems, and IoT projects using ESP32 and sensor integration.
 
+I enjoy designing end-to-end solutions that connect devices, APIs, and user interfaces into a single working system. I am currently strengthening my fundamentals in system design, APIs, and exploring AI-assisted development.
 
-Tech Stack
+I am open to internship and junior developer opportunities.
 
-Languages
-JavaScript Java Python SQL C# PHP C/C++
+---
 
-Frameworks & Libraries
-React Node.js Express Spring Boot
+## Tech Stack
 
-Databases
-MySQL PostgreSQL Firebase Oracle
+**Languages**  
+Java · JavaScript · Python · SQL · C# · PHP · C/C++
 
-Embedded & IoT
-ESP32 Arduino Sensor Integration FreeRTOS
+**Frameworks & Libraries**  
+React · Node.js · Express · Spring Boot
 
-Cloud & DevOps
-AWS EC2 Docker Git GitHub
+**Databases**  
+MySQL · PostgreSQL · Firebase · Oracle
 
+**Embedded & IoT**  
+ESP32 · Arduino · Sensor Integration · FreeRTOS
 
-Featured Projects
+**Cloud & DevOps**  
+AWS · Docker · Git · GitHub
 
-🚨 ERBriwan — Emergency Response IoT Platform
+---
 
+## Featured Projects
 
-ESP32 · Node.js · PostgreSQL · REST API · Mobile App
+### ERBriwan — Emergency Response IoT Platform  
+ESP32 · Node.js · PostgreSQL · REST API · Mobile App  
 
+An end-to-end emergency response system that enables instant distress reporting through a physical trigger device. It integrates ESP32 hardware, a backend API, and a mobile application to transmit real-time GPS location to responders with near-instant delivery.
 
+---
 
-An end-to-end emergency alert system that consolidates distress reporting into a single-button trigger. Integrates an ESP32 device, cloud API, and mobile application to deliver real-time GPS location to responders with ~1 second response time.
+### BarangayEase — Community Services Platform  
+Full Stack · JWT · RBAC · Docker · AWS EC2  
 
+A centralized system for managing barangay services such as complaints, document requests, and case tracking. It features secure authentication, role-based access control, and containerized backend services for automated notifications via email and SMS.
 
-🏛️ BarangayEase — Community Services Web Platform
+---
 
+### QCU-EcoCharge — Solar Energy Monitoring System  
+ESP32 · Node.js · React · IoT  
 
-Full-Stack · JWT · RBAC · Docker · AWS EC2
+A real-time solar tracking and energy monitoring platform built with a layered architecture connecting hardware, API, data processing, and UI. It provides live and historical analytics through a web dashboard.
 
+---
 
+### PondPal — Smart Aquaculture Monitoring System  
+ESP32 · React · Sensor Systems  
 
-A centralized platform for barangay complaint management, document requests, and case tracking. Features JWT-based auth with row-level security, dual portals for residents and officials, and Docker-containerized background workers on AWS EC2 handling SMS, email, and automated reminders.
+An IoT-based monitoring system for aquaculture environments, tracking water quality metrics such as temperature, pH, turbidity, and TDS. It provides real-time anomaly detection and centralized multi-pond monitoring.
 
+---
 
-☀️ QCU-EcoCharge — Solar Energy Monitoring System
-
-
-ESP32 · Node.js · React · IoT
-
-
-
-A real-time solar tracking and energy monitoring system built on a decoupled 4-layer architecture (Hardware → API → Data → UI). Supports 50 concurrent users with sub-5-second latency and a React dashboard for live and historical energy analytics.
-
-
-🐟 PondPal — Smart Aquaculture Monitoring
-
-
-ESP32 · React · Sensor Integration
-
-
-
-An IoT-based water quality monitoring system tracking temperature, pH, turbidity, and TDS across multiple ponds. Delivers automated anomaly alerts within 1 minute of detection and supports centralized multi-device management.
-
-
-GitHub Stats
+## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=XerojUlgasan&show_icons=true&theme=default&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=XerojUlgasan&show_icons=true&hide_border=true" height="150" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=XerojUlgasan&layout=compact&theme=default&hide_border=true" height="150" alt="Top Languages" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=XerojUlgasan&theme=default&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=XerojUlgasan&layout=compact&hide_border=true" height="150" />
 </p>
 
 <p align="center">
-  <i>Open to internships and junior roles — feel free to reach out!</i>
+  <img src="https://streak-stats.demolab.com?user=XerojUlgasan&hide_border=true" />
+</p>
+
+---
+
+<p align="center">
+  Open to internship and junior developer opportunities.
 </p>
