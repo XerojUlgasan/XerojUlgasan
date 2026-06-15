@@ -71,20 +71,6 @@ An IoT-based monitoring system for aquaculture environments, tracking water qual
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=XerojUlgasan&show_icons=true&hide_border=true" height="150" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=XerojUlgasan&layout=compact&hide_border=true" height="150" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=XerojUlgasan&hide_border=true" />
-</p>
-
----
-
 <p align="center">
   Open to internship and junior developer opportunities.
 </p>
